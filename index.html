@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de portifólio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+    <header>
+        <div class="navbar">
+               
+                <div class="nav-item logo"><img src="logo.png" width="83" height="79"></div>
+                <div class="nav-item"><button class="btn">Home</button></div>
+                <div class="nav-item"><button class="btn">Parceiros</button></div>
+                <div class="nav-item"><button class="btn">Produtos</button></div>
+                <div class="nav-item"><button class="btn">Amigos</button></div>
+                <input type="text" class="nav-item pesquisa" id="pesquisa" size="20" value="Inicie uma pesquisa" onclick="apaga()">
+                <script>
+                    function apaga()
+                    {
+                        pesquisa.value = ""
+                        pesquisa.style.color = "black";
+                        
+                    }
+                </script>
+                <div class="nav-item logo "><img src="pesquisa.png" width="20" height="20"></div>
+                
+        </div>
+    </header>
+<body>   
+    <div class="box">
+        <div id="slider" class="slide">
+
+            <img class="selected" src="s1.jpg">
+            <img src="s2.jpg">
+            <img src="s3.jpg">
+            <img src="s4.jpg">
+            <img src="s5.jpg">
+            <img src="s6.jpeg">
+        </div>
+    <script src="script.js"></script>
+
+        <div class="colum2">
+         <p class="itemc"></p>
+         </div>
+      
+    </div>
+</body>
+
+<footer></footer>
+</html>
